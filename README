@@ -1,0 +1,37 @@
+# Malware Detection Tool
+
+This project is a multi-threaded malware detection tool that leverages ClamAV for signature-based detection and includes heuristic detection methods. The tool scans files in a specified directory and provides the user with information on potentially malicious files.
+
+## Features
+
+- Multi-threaded file scanning for efficient performance
+- Integration with ClamAV for signature-based malware detection
+- Heuristic detection methods for additional threat identification
+- Option to delete detected malware files
+- Progress reporting during file scanning
+- Test script to generate sample files with EICAR test malware signatures
+
+## Requirements
+
+- Python 3.7 or higher
+- ClamAV library and daemon installed and running
+
+## Installation
+
+1. Clone the repository or download the project files.
+2. Install the required Python packages using `pip install -r requirements.txt`.
+3. Ensure ClamAV is installed and the ClamAV daemon is running.
+
+## Usage
+
+1. Run the `main.py` script using the command `python main.py`.
+2. Follow the prompts to enter the directory to scan and configure the scanning options.
+3. Review the results and choose whether to delete detected malware files.
+
+## Testing
+
+To generate sample files with EICAR test malware signatures for testing purposes, run the `create_test_files.py` script using the command `python create_test_files.py`.
+
+## License
+
+[MIT License](LICENSE)
