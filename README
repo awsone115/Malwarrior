@@ -2,6 +2,15 @@
 
 This project is a multi-threaded malware detection tool that leverages ClamAV for signature-based detection and includes heuristic detection methods. The tool scans files in a specified directory and provides the user with information on potentially malicious files.
 
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [License](#license)
+
 ## Features
 
 - Multi-threaded file scanning for efficient performance
@@ -34,4 +43,3 @@ To generate sample files with EICAR test malware signatures for testing purposes
 
 ## License
 
-[MIT License](LICENSE)
